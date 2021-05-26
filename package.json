@@ -1,0 +1,35 @@
+{
+  "name": "goit-nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --action list",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inga0402/goit-nodejs-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Inga Grigorieva <YOUR_EMAIL>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inga0402/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/Inga0402/goit-nodejs-hw-01#readme",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "shortid": "^2.2.16",
+    "uuid": "^8.3.2"
+  }
+}
